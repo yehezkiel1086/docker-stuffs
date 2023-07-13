@@ -93,6 +93,36 @@ Demo Project:
 - container environment is created
 - running
 
+### Interesting
+
+- if you install the same application with different versions in docker, you don't have to install the already existing layer from previous versions, just have to install the unexisting ones
+- docker can run different versions of the same application at the same time without interruption
+
+## Docker vs virtual machine
+
+### Overview
+
+- docker on OS level
+- different levels of abstractions
+- why linux-based docker containers don't run on windows
+
+### Docker on OS level
+
+1. Operating system layers
+   a. applications layer --> run on kernel layer
+   b. OS kernel layer --> communicates with hardware
+2. Docker layers
+   a. applications layer
+3. Virtual machine layers
+   a. applications layer
+   b. OS kernel layer
+
+note:
+
+- both Docker and VM are virtualization tools
+- because docker is only consisted of applications layer, its size is much smaller than the vm, it runs much faster
+- compatibility: VM of any OS can run on any OS host but you can't do that with docker
+
 ## Sources
 
 - [Techworld with Nana](https://www.youtube.com/watch?v=3c-iBn73dDE)
