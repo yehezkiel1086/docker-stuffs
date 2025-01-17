@@ -1,13 +1,12 @@
-# Docker Useful
+# Docker Docs
+
+Docker notes, small projects, and solutions from several sources
 
 ## Table of Contents
 
-- What is docker? What is a container?
-- Docker vs Virtual Machine
-- Docker installation
-- Main commands
-- Debugging a container
-- Volumes - persisting data
+- [What is docker? What is a container?](#what-is-docker)
+- [Docker vs Virtual Machine](#docker-vs-virtual-machine)
+- [Main commands](#basic-commands)
 
 Demo Project:
 
@@ -233,4 +232,6 @@ you could also run it in detach mode
 
 ## Sources
 
-- [Techworld with Nana](https://www.youtube.com/watch?v=3c-iBn73dDE)
+- [DevOps with Docker](https://devopswithdocker.com/)
+- [Docker Crash Course for Absolute Beginners](https://youtu.be/pg19Z8LL06w?si=t_eEymrAFJSpsakQ)
+- [Docker Tutorial for Beginners](https://youtu.be/3c-iBn73dDE?si=QvR97s1D0LiWULOt)
