@@ -1,6 +1,6 @@
 # Exercise 1.7: Image for script
 
-We can improve our previous solutions now that we know how to create and build a `Dockerfile`.
+We can improve our previous solutions now that we know how to create and build a Dockerfile.
 
 Let us now get back to Exercise 1.4.
 
@@ -15,11 +15,12 @@ do
 done
 ```
 
-Create a Dockerfile for a new image that starts from *ubuntu:22.04* and add instructions to install `curl` into that image. Then add instructions to copy the script file into that image and finally set it to run on container start using CMD.
+Create a Dockerfile for a new image that starts from *ubuntu:22.04* and add instructions to install curl into that image. Then add instructions to copy the script file into that image and finally set it to run on container start using CMD.
 
 After you have filled the Dockerfile, build the image with the name "curler".
 
 - If you are getting permission denied, use `chmod` to give permission to run the script.
+
 The following should now work:
 
 ```sh
