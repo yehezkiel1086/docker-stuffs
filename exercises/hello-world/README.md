@@ -8,6 +8,10 @@ Stop two of the containers and leave one container running.
 
 Submit the output for `docker ps -a` which shows 2 stopped containers and one running.
 
-## Output
+## Exercise 1.2: Cleanup
 
-![exercise_1-1](/assets/exercise_1-1.png)
+We have containers and an image that are no longer in use and are taking up space. Running `docker ps -a` and `docker image ls` will confirm this.
+
+Clean the Docker daemon by removing all images and containers.
+
+Submit the output for `docker ps -a` and `docker image ls`
