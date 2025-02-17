@@ -1,6 +1,14 @@
 #!/bin/bash
 
-# pull images
-sudo docker pull apache/skywalking-oap-server:10.1.0
-sudo docker pull redis:7.4.2
-sudo docker pull nginx:1.27.3
+# show images before pulling
+echo "Images before pulling: "
+docker image ls
+
+# run images
+docker pull nginx:1.27.4-alpine
+docker pull redis:7-alpine
+docker pull alpine:3.19
+
+# show images after pulling
+echo "Images after pulling: "
+docker image ls
