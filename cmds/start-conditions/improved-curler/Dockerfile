@@ -1,11 +1,19 @@
 FROM ubuntu:22.04
 
-WORKDIR /root
+# change workdir to /workspace
+WORKDIR /workspace
 
-RUN apt update && apt install curl -y
+# install curl
+RUN apt-get update && apt install curl -y
 
+# copy script
 COPY script.sh .
 
-RUN chmod +x script.sh
+# make script.sh executable
+RUN chmod +x ./script.sh
 
-ENTRYPOINT [ "./script.sh" ]
+# define script.sh as entrypoint
+ENTRYPOINT ["./script.sh"]
+
+# define default value
+CMD ["vulnweb.com"]
