@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  yt-dlp:
+    image: yt-dlp
+    build: .
+    volumes:
+      - ./volume:/mydir
+    container_name: yt-dlp
