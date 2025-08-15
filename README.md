@@ -134,5 +134,3 @@ From the above definition, basically, Docker consists of three things:
 
 - [DevOps with Docker](https://devopswithdocker.com/)
 - [Docker Training](https://github.com/arsitektur-jaringan-komputer/Pelatihan-Docker)
-- [Docker Crash Course for Absolute Beginners](https://youtu.be/pg19Z8LL06w?si=t_eEymrAFJSpsakQ)
-- [Docker Tutorial for Beginners](https://youtu.be/3c-iBn73dDE?si=QvR97s1D0LiWULOt)
